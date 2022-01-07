@@ -1,0 +1,46 @@
+.swiper-button-next{
+  color:#FFBA08;
+  font-size: 32px;
+}
+.swiper-button-next::after{
+
+  @media (max-width: 768px){
+    font-size: 32px;
+  }
+}
+
+.swiper-button-prev{
+  color:#FFBA08;
+  font-size: 32px;
+}
+.swiper-button-prev::after{
+
+  @media (max-width: 768px){
+    font-size: 32px;
+  }
+}
+
+.swiper-pagination-bullet {
+  color:#768279;
+  background:#768279;
+  height:16px;
+  width:16px;
+  opacity: 1;
+  @media (max-width: 768px){
+    height:8px;
+    width:8px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  color:#FFBA08;
+  background:#FFBA08;
+  height:16px;
+  width:16px;
+  opacity: 1;
+
+  @media (max-width: 768px){
+    height:8px;
+    width:8px;
+  }
+}
