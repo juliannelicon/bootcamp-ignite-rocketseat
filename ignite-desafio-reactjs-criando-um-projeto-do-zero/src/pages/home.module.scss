@@ -1,0 +1,55 @@
+.main {
+  padding: 2rem;
+
+  img {
+    margin: 3rem 0 4rem 0;
+  }
+
+  a {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    h1 {
+      font-size: 1.75rem;
+      color: var(--gray-100);
+      line-height: 2rem;
+      font-weight: 700;
+      text-align: justify;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+      font-weight: normal;
+      text-align: justify;
+      margin-bottom: 1.5rem;
+    }
+
+    div {
+      display: flex;
+
+      span {
+        font-size: 0.875rem;
+        margin-left: 3rem;
+      }
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+  }
+
+  button {
+    border: 0;
+    background: transparent;
+    color: var(--pink-700);
+    margin-top: 2rem;
+    font-size: 1.125rem;
+  }
+}
