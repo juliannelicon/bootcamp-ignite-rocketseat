@@ -1,23 +1,17 @@
-<h2 align="center">dtmoney</h2>
+<p align="center">
+  <img alt="dtmoney" width="200px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-dtmoney/src/assets/logo.svg" />
+</p>
 
 ## Tecnologias
 - [reactjs](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [miragejs](https://miragejs.com/)
 - [axios](https://axios-http.com/docs/intro)
-- [polished](https://axios-http.com/docs/intro)
-- [styled-components](https://axios-http.com/docs/intro)
+- [react-modal](https://github.com/reactjs/react-modal)
+- [polished](https://polished.js.org/)
+- [styled-components](https://styled-components.com/)
 
 ## Como executar
-
-Clone o projeto e acesse a pasta do mesmo:
-
-```bash
-$ git clone https://gitlab.defensoria.to.def.br/defensoria/portaldoservidor-frontend.git
-$ cd portaldoservidor-frontend
-```
-
-Para iniciá-lo, siga os passos abaixo:
 
 ```bash
 # Instalar as dependências
