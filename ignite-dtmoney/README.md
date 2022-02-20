@@ -2,6 +2,11 @@
   <img alt="dtmoney" width="200px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-dtmoney/src/assets/logo.svg" />
 </p>
 
+<p align="center">
+  <img alt="dtmoney" width="400px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-dtmoney/public/dtmoney.png" />
+  <img alt="dtmoney" width="400px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-dtmoney/public/dtmoney-modal.png" />
+</p>
+
 ## Tecnologias
 - [reactjs](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
