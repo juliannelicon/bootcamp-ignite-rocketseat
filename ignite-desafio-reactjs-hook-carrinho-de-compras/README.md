@@ -1,7 +1,5 @@
-
-<p align="center" bg_color=rgba(0,0,0,0)>
-  <img alt="Desafio carrinho de compras" width="400px" src="./src/assets/images/logo.svg" />
-</p>
+<img alt="Desafio carrinho de compras" width="400px" src="./src/assets/images/logo-dark.svg#gh-light-mode-only" />
+<img alt="Desafio carrinho de compras" width="400px" src="./src/assets/images/logo-light.svg#gh-light-mode-only" />
 
 ## Dashboard
 <img alt="Desafio carrinho de compras" width="400px" src="./src/assets/images/dashboard.png" />
