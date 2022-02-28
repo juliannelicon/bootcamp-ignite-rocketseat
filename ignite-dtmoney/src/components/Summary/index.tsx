@@ -32,7 +32,7 @@ const Summary: React.FC = () => {
       <div>
         <header>
           <p>Entradas</p>
-          <img src={incomeImg} alt=""/>
+          <img src={incomeImg} alt="Entradas"/>
         </header>
 
         <strong>
@@ -45,7 +45,7 @@ const Summary: React.FC = () => {
       <div>
         <header>
           <p>Saídas</p>
-          <img src={outcomeImg} alt=""/>
+          <img src={outcomeImg} alt="Saídas"/>
         </header>
 
         <strong>
@@ -58,7 +58,7 @@ const Summary: React.FC = () => {
       <div>
         <header>
           <p>Total</p>
-          <img src={totalImg} alt=""/>
+          <img src={totalImg} alt="Total"/>
         </header>
 
         <strong>
