@@ -7,7 +7,7 @@
   <img alt="dtmoney" width="400px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-dtmoney/public/dtmoney-modal.png" />
 </p>
 
-## Tecnologias
+### 🛠 Tecnologias
 - [reactjs](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [miragejs](https://miragejs.com/)
@@ -15,6 +15,7 @@
 - [react-modal](https://github.com/reactjs/react-modal)
 - [polished](https://polished.js.org/)
 - [styled-components](https://styled-components.com/)
+- [ContextAPI](https://pt-br.reactjs.org/docs/context.html)
 
 ## Como executar
 
