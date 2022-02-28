@@ -4,10 +4,10 @@
 </p>
 
 ## Dashboard
-<img alt="GoRestaurant" width="400px" src="./src/assets/images/dashboard.png" />
+<img alt="GoRestaurant" width="400px" src="./src/assets/dashboard.png" />
 
-## Cart
-<img alt="GoRestaurant" width="400px" src="./src/assets/images/cart.png" />
+## Formulário
+<img alt="GoRestaurant" width="400px" src="./src/assets/form.png" />
 
 ### 🛠 Tecnologias
 - [reactjs](https://pt-br.reactjs.org/)
