@@ -1,5 +1,5 @@
-import { createContext, ReactNode, useEffect, useState } from 'react';
-import api from './services/api';
+import { createContext, ReactNode, useContext, useEffect, useState } from 'react';
+import api from '../services/api';
 
 interface ITransaction {
   id: number;
@@ -10,7 +10,10 @@ interface ITransaction {
   createdAt: string;
 }
 
+// Omite id e createdAt
 // type TansactionInput = Omit<ITransaction, 'id' | 'createdAt'>;
+
+// Pick informa somente os campos que serão utilizado
 type TansactionInput = Pick<ITransaction, 'title' | 'amount' | 'category' | 'type'>;
 
 interface TransactionsContextProps {
@@ -22,7 +25,7 @@ interface TransactionsProviderProps {
   children: ReactNode;
 }
 
-export const TransactionsContext = createContext<TransactionsContextProps>({} as TransactionsContextProps);
+const TransactionsContext = createContext<TransactionsContextProps>({} as TransactionsContextProps);
 
 export function TransactionsProvider({children}: TransactionsProviderProps) {
   const [transactions, setTransactions] = useState<ITransaction[]>([]);
@@ -49,4 +52,10 @@ export function TransactionsProvider({children}: TransactionsProviderProps) {
       {children}
     </TransactionsContext.Provider>
   )
+}
+
+export function useTransactions(){
+  const context = useContext(TransactionsContext);
+
+  return context;
 }

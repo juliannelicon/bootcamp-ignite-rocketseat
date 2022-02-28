@@ -1,15 +1,13 @@
-import React, { useContext } from 'react';
+import { useTransactions } from '../../Hooks/useTransactions';
 
 import totalImg from '../../assets/total.svg'
 import incomeImg from '../../assets/income.svg'
 import outcomeImg from '../../assets/outcome.svg'
 
-import { TransactionsContext } from '../../TransactionsContext';
-
 import { Container } from './styles';
 
-const Summary: React.FC = () => {
-  const { transactions } = useContext(TransactionsContext);
+export function Summary() {
+  const { transactions } = useTransactions();
 
   const summary = transactions.reduce((acc, transaction) => {
     if (transaction.type === 'income'){
@@ -72,5 +70,3 @@ const Summary: React.FC = () => {
     </Container>
   );
 }
-
-export default Summary;

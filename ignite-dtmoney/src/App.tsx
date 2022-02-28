@@ -1,12 +1,13 @@
 import { useState } from "react";
 
+import { TransactionsProvider } from "./Hooks/useTransactions";
+
 import Header from "./components/Header";
 import Dashboard from "./components/Dashboard";
 import TransactionModal from "./components/TransactionModal";
 
 import { GlobalStyle } from "./styles/global";
 
-import { TransactionsProvider } from "./TransactionsContext";
 
 function App() {
   const [isOpenTransactionModal, setIsOpenTransactionModal] = useState(false);
