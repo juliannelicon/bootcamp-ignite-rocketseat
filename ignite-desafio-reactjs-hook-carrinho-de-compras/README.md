@@ -2,10 +2,11 @@
   <img alt="Desafio carrinho de compras" width="200px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-desafio-reactjs-hook-carrinho-de-compras/src/assets/images/logo.svg" />
 </p>
 
-<p align="center">
-  <img alt="Desafio carrinho de compras" width="400px" src="" />
-  <img alt="Desafio carrinho de compras" width="400px" src="" />
-</p>
+## Dashboard
+<img alt="Desafio carrinho de compras" width="400px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-desafio-reactjs-hook-carrinho-de-compras/src/assets/images/dashboard.png" />
+
+## Cart
+<img alt="Desafio carrinho de compras" width="400px" src="https://github.com/juliannelicon/bootcamp-ignite-rocketseat/blob/master/ignite-desafio-reactjs-hook-carrinho-de-compras/src/assets/images/cart.png" />
 
 ### 🛠 Tecnologias
 - [reactjs](https://pt-br.reactjs.org/)
